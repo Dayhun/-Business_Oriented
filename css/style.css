@@ -86,10 +86,52 @@
 @media (min-width: 600px) {
     @import url("/css/index/tablet.css");
     @import url("/css/service/tablet.css");
+
+    header > section {
+        background-color: transparent;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        padding: 0 2%;
+    }
+
+    header ul {
+        width: 15vw;
+    }
+
+    header li {
+        display: flex;
+    }
+
+    header a {
+        width: 100%;
+        padding: 2%;
+    }
+
+    header a:hover {
+        border-bottom: 5px solid dodgerblue;
+        border-top: 5px solid dodgerblue;
+    }
+    figure {
+        background-color: #333333;
+        padding: 5%;
+    }
+
+    details {
+        padding-top: 2%;
+    }
+
+    summary {
+        font-size: 25px;
+        height: 5vh;
+        width: 5vh;
+    }
+
 }
 
 /* DESKTOP */
 @media (min-width: 1100px) {
     @import url("/css/index/desktop.css");
     @import url("/css/service/desktop.css");
+
 }
