@@ -1,12 +1,77 @@
+ @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Nunito:wght@200;300;400;500;600;700;800;900;1000&family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap');
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 /* MOBILE */
 @media (min-width: 200px) {
     @import url("/css/index/mobile.css");
     @import url("/css/service/mobile.css");
+    header {
+        background-image: url("/img/header-bg.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 40vh;
+    }
+    header i{
+        font-size: 40px;
+        color: #AABACB;
+    }
+
+
+    header > section {
+        background-color: #333333;
+    }
+    header h3{
+        color: #AABACB;
+    }
+    figure {
+        display: flex;
+        column-gap: 5vw;
+        justify-content: center;
+        padding-bottom: 10%;
+        /* padding: 10%; */
+        /* position: relative; */
+    }
+
+    details {
+        text-align: right;
+        padding-top: 5%;
+        position: relative;
+        /* z-index: 1; */
+        /* right: 5%; */
+        /* top: 2%; */
+    }
+
+    nav {
+        display: none;
+    }
+
+    summary {
+        /* position: absolute; */
+        /* text-align: center; */
+        background-color: white;
+        color: dodgerblue;
+        padding: 2%;
+    }
+
+    details > ul {
+        position: absolute;
+        right: 0%;
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        padding: 3%;
+        text-align: center;
+        row-gap: 2vh;
+    }
+    details a{
+        text-decoration: none;
+        color: #707172;
+    }
 }
 
 /* TABLET */
