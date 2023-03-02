@@ -46,10 +46,23 @@ span {
     font-weight: 400;
     width: 80%;
     color: gray;
-    padding-bottom: 3vh;
+    padding-bottom: 2vh;
+    position: relative;
+}
+
+.our-service > h3:before,
+.professional-service > h3:before,
+.service-contact > h3:before {
+    position: absolute;
+    content: "";
+    bottom: 0;
+    width: 60%;
     border-bottom: 3px solid dodgerblue;
 }
 
+.service-contact > h3:before {
+    left: 20%;
+}
 .professional-service > figure {
     display: flex;
     flex-direction: column;
