@@ -63,7 +63,7 @@ span {
 .service-contact > h3:before {
     left: 20%;
 }
-.professional-service > figure {
+3 .professional-service > figure {
     display: flex;
     flex-direction: column;
     row-gap: 2vh;

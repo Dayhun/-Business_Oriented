@@ -1,0 +1,51 @@
+.service-top {
+    display: flex;
+    column-gap: 4vw;
+    width: 100%;
+}
+
+.service-top-left {
+    width: 60%;
+}
+
+.service-top-right {
+    width: 40%;
+    height: 50%;
+}
+
+main {
+    row-gap: 15vh;
+}
+
+.service-bottom {
+    flex-direction: row;
+    column-gap: 3vw;
+}
+
+.service-bottom > article {
+    padding: 5% 3%;
+    height: 45vh;
+}
+
+form {
+    width: 60%;
+    row-gap: 4vh;
+}
+
+select {
+    width: 3vw;
+    height: 3vw;
+}
+
+[type="submit"] {
+    width: 20%;
+    padding: 2%;
+}
+
+footer {
+    padding: 20% 1% 5%;
+}
+
+footer > article {
+    column-gap: 3vw;
+}
