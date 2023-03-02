@@ -6,6 +6,10 @@
     font-family: "Source Sans Pro", sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 /* MOBILE */
 @media (min-width: 200px) {
     @import url("/css/index/mobile.css");
