@@ -1,5 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap");
 
+@import url("/css/index/mobile.css");
+@import url("/css/service/mobile.css");
+@import url("/css/index/tablet.css");
+@import url("/css/service/tablet.css");
+@import url("/css/index/desktop.css");
+@import url("/css/service/desktop.css");
+
 * {
     margin: 0;
     padding: 0;
@@ -12,8 +19,6 @@ html {
 
 /* MOBILE */
 @media (min-width: 200px) {
-    @import url("/css/index/mobile.css");
-    @import url("/css/service/mobile.css");
     header {
         background-image: url("/img/header-bg.jpg");
         background-repeat: no-repeat;
@@ -92,9 +97,6 @@ html {
 
 /* TABLET */
 @media (min-width: 600px) {
-    @import url("/css/index/tablet.css");
-    @import url("/css/service/tablet.css");
-
     header > section {
         background-color: transparent;
         display: flex;
@@ -142,9 +144,6 @@ html {
 
 /* DESKTOP */
 @media (min-width: 1100px) {
-    @import url("/css/index/desktop.css");
-    @import url("/css/service/desktop.css");
-
     details {
         display: none;
     }

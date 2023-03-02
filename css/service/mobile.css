@@ -1,0 +1,211 @@
+main {
+    display: flex;
+    flex-direction: column;
+    row-gap: 8vh;
+    padding: 3%;
+    line-height: 2;
+    border-top: 1px solid gray;
+    outline: 4px solid white;
+}
+
+p {
+    color: gray;
+}
+
+span {
+    color: dodgerblue;
+}
+
+.service-top {
+    padding-top: 8vh;
+}
+
+.service-top-left {
+    display: flex;
+    flex-direction: column;
+    row-gap: 8vh;
+}
+
+.our-service {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2vh;
+}
+
+.professional-service {
+    display: flex;
+    flex-direction: column;
+    row-gap: 8vh;
+    padding-bottom: 8vh;
+}
+
+.our-service > h3,
+.professional-service > h3,
+.service-contact > h3 {
+    font-size: 30px;
+    font-weight: 400;
+    width: 80%;
+    color: gray;
+    padding-bottom: 2vh;
+    position: relative;
+}
+
+.our-service > h3:before,
+.professional-service > h3:before,
+.service-contact > h3:before {
+    position: absolute;
+    content: "";
+    bottom: 0;
+    width: 60%;
+    border-bottom: 3px solid dodgerblue;
+}
+
+.service-contact > h3:before {
+    left: 20%;
+}
+.professional-service > figure {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2vh;
+}
+
+.professional-service figcaption {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2vh;
+}
+
+.professional-service h4,
+.service-top-right h5 {
+    color: dodgerblue;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.service-top-right {
+    background-color: gainsboro;
+}
+
+.service-top-right img {
+    width: 100%;
+}
+.service-top-right > figure {
+    display: flex;
+    flex-direction: column;
+}
+
+.service-top-right figcaption {
+    padding: 10%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 3vh;
+}
+
+main > article {
+    background-color: gray;
+    padding: 10%;
+}
+
+main > article > p {
+    color: white;
+}
+
+.service-bottom {
+    display: flex;
+    flex-direction: column;
+    row-gap: 4vh;
+}
+
+.service-bottom > article {
+    background-color: gainsboro;
+    padding: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 5vh;
+    height: 40vh;
+}
+
+.service-bottom i {
+    color: gray;
+    font-size: 50px;
+}
+
+.service-contact {
+    display: flex;
+    flex-direction: column;
+    row-gap: 8vh;
+    align-items: center;
+}
+
+.service-contact > h3 {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 3vh;
+    width: 100%;
+}
+
+input,
+textarea,
+form > aside {
+    width: 90%;
+    padding: 5%;
+    border: 1px solid gainsboro;
+}
+
+::placeholder,
+label {
+    color: gray;
+    font-size: 20px;
+}
+
+form > aside {
+    display: flex;
+    justify-content: space-between;
+}
+
+textarea {
+    resize: none;
+    height: 15vh;
+}
+
+[type="submit"] {
+    background-color: dodgerblue;
+    border: 2px solid dodgerblue;
+    padding: 5%;
+    width: 50%;
+    color: white;
+    font-size: 20px;
+}
+
+select {
+    width: 10vw;
+    height: 10vw;
+    border: 1px solid gray;
+    text-align: center;
+}
+
+footer {
+    padding-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    row-gap: 5vh;
+    padding: 40% 5% 20%;
+}
+
+footer > article {
+    display: flex;
+    column-gap: 5vw;
+    justify-content: flex-end;
+}
+
+footer i {
+    color: lightgray;
+    font-size: 30px;
+}
