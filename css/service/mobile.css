@@ -170,6 +170,7 @@ textarea {
     padding: 5%;
     width: 50%;
     color: white;
+    font-size: 20px;
 }
 
 select {
@@ -184,7 +185,7 @@ footer {
     display: flex;
     flex-direction: column;
     row-gap: 5vh;
-    padding: 10% 5%;
+    padding: 40% 5% 20%;
 }
 
 footer > article {
