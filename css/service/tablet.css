@@ -1,0 +1,83 @@
+.our-service > h3,
+.professional-service > h3,
+.service-contact > h3 {
+    padding-bottom: 1vh;
+    font-size: 35px;
+}
+
+.our-service > h3:before,
+.professional-service > h3:before,
+.service-contact > h3:before {
+    width: 30%;
+}
+
+.service-contact > h3:before {
+    left: 35%;
+}
+
+.professional-service {
+    row-gap: 5vh;
+}
+
+.professional-service > figure {
+    flex-direction: row;
+    column-gap: 3vw;
+}
+
+.professional-service img {
+    width: 40%;
+}
+
+.service-top-right {
+    width: 60%;
+}
+
+main > article {
+    padding: 5%;
+    width: 60%;
+    margin: 5vh 0 5vh 30%;
+}
+
+.service-bottom > article {
+    padding: 5%;
+    height: 25vh;
+}
+
+.service-bottom i {
+    font-size: 60px;
+}
+
+.service-contact {
+    row-gap: 6vh;
+}
+
+form {
+    width: 80%;
+    row-gap: 2vh;
+}
+
+input,
+textarea,
+form > aside {
+    padding: 3%;
+}
+
+select {
+    width: 5vw;
+    height: 5vw;
+}
+
+[type="submit"] {
+    width: 30%;
+    padding: 3%;
+}
+
+footer {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20% 5% 10%;
+}
+
+footer > p {
+    width: 60%;
+}
