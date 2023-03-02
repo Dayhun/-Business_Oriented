@@ -1,0 +1,44 @@
+@media (min-width: 200px){
+    
+    /* MAIN */
+    main{
+        padding: 5%;
+        padding-top: 40%;
+    }
+    /* PART-1 */
+    .part-1 hr{
+        width: 70%;
+    }
+    .part-1 > article figure,
+    .part-1 > article figcaption{
+        display: flex;
+        flex-direction: column;
+        row-gap: 5vh;
+    }
+    .part-1 figcaption{
+        padding-top: 10%;
+    }
+    .part-1 > article img{
+        width: 100%;
+        padding-bottom: 9%;
+    }
+    .part-1 > section img{
+        width: 70%;
+    }
+    .part-1 > section,
+    .part-1 > section > article
+    .part-1 > section > article > figure{
+        display: flex;
+        flex-direction: column;
+        row-gap: 4vh;
+        align-items: center;
+        text-align: center;
+    }
+    .part-1 > section > article > figure img{
+        padding-top: 5%;
+    }
+    /* apagar isso depois */
+    img{
+        width: 15%;
+    }
+}
